@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+
+</body>
+</html>
+<script>
+	
+
+var seconds = 10;
+var timer; //THIS IS IMPORTANT. DECLARE GLOBAL VARIABLE
+
+function start(){
+
+	timer = setInterval(decrement, 1000); //THIS IS IMPORTANT. ASSIGN THE STATEMENT TO A VARIABLE.
+}
+
+function decrement(){
+	seconds--;
+	if (seconds === 0){
+		stop();
+	}
+	console.log(seconds);
+}
+
+function stop() {
+	clearInterval(timer);
+}
+
+start();
+
+</script>
