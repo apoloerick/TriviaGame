@@ -241,7 +241,7 @@
 
         	
         }
-		var seconds = 5;
+		var seconds = 60;
 		var timer; //DECLARE GLOBAL VARIABLE
 
 		function startstop(){
