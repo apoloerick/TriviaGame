@@ -1,14 +1,18 @@
 html{
 	background-size: 100% 100%;
-	background-image:center;
+
 	background-repeat: no-repeat;
 	
 }
-.lol{
+.jumb{
 	display: none;
 }
 
-button{
+.btn{
+	
+	margin-right: 30px;
+	border-right: 30px;
+	background-color: white;
 
 }
 h3{
@@ -24,10 +28,11 @@ h1{
 }
 #clock{
 	text-align: center;
-	background-color:white;
+	opacity: 50;
 	border:1px solid gray;
 	font-weight:bold;
-	font-size:14pt;
+	font-size:25pt;
+	color: white;
 }
 
 #display{

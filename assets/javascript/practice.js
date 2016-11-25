@@ -1,3 +1,5 @@
+
+
 var seconds;
 var timer;
 
@@ -19,3 +21,9 @@ function stop() {
 
 start();
 console.log(seconds);
+
+
+$.ajax({url: queryURl, method:"GET"})
+.done(function(response){
+	console.log(response);
+})
