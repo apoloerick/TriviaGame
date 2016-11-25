@@ -236,7 +236,7 @@
         	$(".text-center").css("display", "none");
         	$(".right").append(rightans);
         	$(".wrong").append(wrongans);
-        	$(".lol").css("display", 'block');
+        	$(".jumb").css("display", 'block');
         	}
 
         	
